@@ -15,9 +15,9 @@ const Hero = () => {
         <Image
           src={"/assets/images/image-hero-desktop.png"}
           alt="hero image"
-          width={400}
-          height={400}
-          className="hidden md:block order-2 lg:w-[500px]"
+          width={300}
+          height={300}
+          className="hidden md:block order-2 w-[500px] max-w-[600px] object-contain"
         />
 
         <div className="text-center mt-5 md:text-left">
@@ -25,7 +25,7 @@ const Hero = () => {
             Make
             <br className="hidden md:block" /> remote work
           </h4>
-          <p className="text-mediumGray text-[1.1em] leading-[1.6em] max-w-[500px] mt-9">
+          <p className="text-mediumGray text-[1.1em] leading-[1.6em] max-w-[500px] mt-9 md:pr-3">
             Get your team in sync, no matter your location. Streamline
             processes, create team rituals, and watch productivity soar.
           </p>
