@@ -3,7 +3,7 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <nav className="px-4 py-6 ">
+    <nav className="px-4 py-6 lg:px-[5em] ">
       <div className="flex-items justify-between">
         <div className="flex-items gap-[4em] justify-between lg:justify-normal w-full">
           <Image
@@ -22,7 +22,7 @@ const Navbar = () => {
             />
           </div>
 
-          <ul className="hidden lg:flex items-center gap-4">
+          <ul className="hidden lg:flex items-center gap-10 text-mediumGray text-[.9em]">
             <li className="flex-items gap-1">
               Features
               <Image
@@ -30,7 +30,6 @@ const Navbar = () => {
                 alt="arrow down"
                 width={10}
                 height={10}
-                className="mt-1"
               />
             </li>
             <li className="flex-items gap-1">
@@ -40,7 +39,6 @@ const Navbar = () => {
                 alt="arrow down"
                 width={10}
                 height={10}
-                className="mt-1"
               />
             </li>
             <li>Careers</li>
@@ -49,8 +47,10 @@ const Navbar = () => {
         </div>
 
         <div className="lg:flex-items gap-8 hidden">
-          <button>Login</button>
-          <button>Register</button>
+          <button className="text-mediumGray">Login</button>
+          <button className="border border-black rounded-lg px-5 py-2 text-mediumGray">
+            Register
+          </button>
         </div>
       </div>
     </nav>

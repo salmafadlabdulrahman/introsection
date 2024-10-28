@@ -34,6 +34,34 @@ const Hero = () => {
           <button className="bg-black text-white py-4 px-8 rounded-2xl mt-7 font-bold text-[1.1em]">
             Learn more
           </button>
+
+          <div className="flex-items mt-[3em] lg:mt-[6em] justify-center flex-wrap gap-5 md:justify-start md:w-[60%] lg:w-[100%]">
+            <Image
+              src="/assets/images/client-databiz.svg"
+              width={100}
+              height={100}
+              alt="databiz logo"
+              className="border "
+            />
+            <Image
+              src="/assets/images/client-audiophile.svg"
+              width={70}
+              height={70}
+              alt="databiz logo"
+            />
+            <Image
+              src="/assets/images/client-meet.svg"
+              width={100}
+              height={100}
+              alt="databiz logo"
+            />
+            <Image
+              src="/assets/images/client-maker.svg"
+              width={100}
+              height={100}
+              alt="databiz logo"
+            />
+          </div>
         </div>
       </div>
     </main>
