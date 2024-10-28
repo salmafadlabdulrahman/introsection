@@ -12,13 +12,15 @@ const Hero = () => {
           height={500}
           className="w-full md:hidden"
         />
-        <Image
-          src={"/assets/images/image-hero-desktop.png"}
-          alt="hero image"
-          width={300}
-          height={300}
-          className="hidden md:block order-2 w-[500px] max-w-[600px] object-contain"
-        />
+        <div className="hidden md:block order-2 ">
+          <Image
+            src={"/assets/images/image-hero-desktop.png"}
+            alt="hero image"
+            width={400}
+            height={400}
+            className="object-contain"
+          />
+        </div>
 
         <div className="text-center mt-5 md:text-left">
           <h4 className="font-bold text-[1.9em] md:text-[5em] md:leading-[1em] md:max-w-[550px]">
