@@ -4,7 +4,7 @@ import React from "react";
 const Hero = () => {
   return (
     <main>
-      <div className="max-w-[500px] px-4 py-6 m-auto md:flex-items justify-between md:pl-[2.5em] md:max-w-[1000px] lg:max-w-[1200px]">
+      <div className="max-w-[500px] px-4 py-6 m-auto md:flex-items justify-between md:pl-[2.5em] md:max-w-[1000px] lg:max-w-[1200px] lg:mt-[3.5em]">
         <Image
           src={"/assets/images/image-hero-mobile.png"}
           alt="hero image"
